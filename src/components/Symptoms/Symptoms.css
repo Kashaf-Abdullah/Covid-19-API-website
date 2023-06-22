@@ -1,0 +1,190 @@
+.Symptoms-Section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+padding:1.5rem 1.5rem;
+flex-wrap: wrap;
+overflow-x: hidden;
+}
+  
+  .left-symptomsSections {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: left; /* Center items horizontally */
+  line-height: 2rem;
+  justify-content: center;
+}
+  .left-symptomsSections h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+  }
+
+  .left-symptomsSections span:nth-of-type(3){
+    font-size: 12px;
+    ;
+  }
+  
+  
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content:flex-start;
+  line-height: 1.25;
+  margin: 1rem 0 1rem 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+  .right-symptomsSections {
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  
+  .right-symptomsSections img {
+    width: 28rem;
+    height: 28rem;
+  }
+  .img2-Symptoms img{
+    margin-top:11rem;
+  }
+  
+
+
+  @media screen and (max-width:1394px){
+.left-symptomsSections{
+  width:20%;
+}
+.left-symptomsSections h2{
+  font-size: 24px;
+}
+    .right-symptomsSections {
+
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      justify-content: center; /* Center items horizontally */
+    }
+    
+    
+  }
+
+
+
+
+
+  
+
+  @media screen and (max-width:1077px){
+    .left-symptomsSections{
+      width:35%;
+    }
+    .left-symptomsSections h2{
+      font-size: 24px;
+    }
+        .right-symptomsSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 65%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-symptomsSections img {
+    width: 16rem;
+    height: 16rem;
+  } 
+      }
+
+
+      
+  @media screen and (max-width:792px){
+    .left-symptomsSections{
+      width:50%;
+    }
+    .left-symptomsSections h2{
+      font-size: 24px;
+    }
+        .right-symptomsSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-symptomsSections img {
+    width: 11rem;
+    height: 11rem;
+  } 
+      }
+
+
+
+
+      
+  @media screen and (max-width:692px){
+    .left-symptomsSections{
+      width:100%;
+    }
+    .left-symptomsSections h2{
+      font-size: 24px;
+    }
+        .right-symptomsSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-symptomsSections img {
+    width: 12rem;
+    height: 12rem;
+  } 
+      }
+

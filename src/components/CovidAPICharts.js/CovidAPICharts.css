@@ -1,0 +1,111 @@
+.CovidAPICharts-heading{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;;
+    
+}
+.CovidAPICharts-Section{
+    display: flex;
+    flex-direction: row;
+  
+width:100%;
+margin: 0 1rem 0 1rem;
+height:100%;;
+flex-wrap: wrap;
+}
+.CovidAPICharts-left  
+{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%
+}
+ .CovidAPICharts-right{
+display: flex;
+flex-direction: column;
+width:50%;
+height: 100%;;
+/* line-height: 2.5rem; */
+}
+
+.CovidAPICharts-Section h3{
+    font-size: 26px;
+    font-weight: bold;
+    color:black;
+
+}
+
+.CovidAPICharts-Section p{
+
+}
+.CovidAPICharts-left img , .CovidAPICharts-right img{
+    width:80%;
+    height:80%;
+}
+
+
+.try-it-btn{
+  color:black;;
+  text-decoration: none;
+}
+/* CSS */
+.button-9 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content:flex-start;
+    line-height: 1.25;
+    /* margin: 1rem 0 1rem 0; */
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-9:hover,
+  .button-9:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-9:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-9:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  
+
+
+  
+@media screen and (max-width:906px){
+ .CovidAPICharts-left{
+    width:100%;
+ }
+ .CovidAPICharts-right{
+    width:100%;
+ }
+
+}

@@ -1,0 +1,98 @@
+.Preventions-Sections{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+text-align: center;
+margin-bottom: 10rem;
+overflow-x: hidden;
+
+}
+.Preventions-Sections h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+
+}
+.Preventions-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+width:100%;
+height:100%;
+flex-wrap: wrap;
+}
+.Preventions-cards .p-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+    margin: 4px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 13px ;
+    background-color: #ffd6d6;
+    
+}
+.p-c p{
+    font-size: 19px;
+    font-weight: 600;
+    color: #fa6400;
+}
+.Preventions-cards img{
+    width:10rem;
+    height:10rem;
+border-radius: 50%;;
+bordeR:2px solid #8c1a1a
+}
+
+
+
+
+/* CSS */
+.button-7 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content:flex-start;
+    line-height: 1.25;
+    /* margin: 1rem 0 1rem 0; */
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-7:hover,
+  .button-7:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-7:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-7:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  
